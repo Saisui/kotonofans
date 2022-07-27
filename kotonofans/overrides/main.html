@@ -1,0 +1,49 @@
+<!-- 这里用于覆盖MKdocs Material的各种块 -->
+
+{% extends "base.html" %}
+
+{% block announce %}
+最新更新 2022-6-17 20:01
+{% endblock %}
+
+{% block extrahead %}
+  <!-- 不缓存 -->
+  <!-- http 1.0 -->
+  <meta http-equiv="pragma" content="no-cache" />
+  <!-- http 1.1 -->
+  <meta http-equiv="content-type" content="no-cache, must-revalidate" />
+  <!-- http 1.0 -->
+  <meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT" />
+{% endblock %}
+
+
+{% block content %}
+  {{ super() }}
+
+<!-- 评论区模块(使用来必力支持), 默认开启, 在元数据中加上 comment:false 或者 comment: off 来去除。-->
+{% if page and page.meta %}
+
+  {% if not page.meta.comment == false %}
+  <!-- 来必力City版安装代码 -->
+  <div id="lv-container" data-id="city" data-uid="MTAyMC81NjYwNC8zMzA2Nw==">
+    <script type="text/javascript">
+    (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+
+        if (typeof LivereTower === 'function') { return; }
+
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+
+        e.parentNode.insertBefore(j, e);
+    })(document, 'script');
+    </script>
+  <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+  </div>
+  <!-- City版安装代码已完成 -->
+  {% endif %}
+
+{% endif %}
+
+{% endblock %}

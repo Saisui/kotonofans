@@ -1,0 +1,105 @@
+plugins:
+  - tags:
+      tags_file: tags.md
+  - search:
+      separator: '[\s\-\.]+'
+      lang:
+        - en
+        - ja
+  - pico-8
+  - awesome-pages #通过.pages文件来配置navigation
+  # - section-index #让nav的标题也可附加一个md文档
+  - autolinks #让站内链接不用写绝对路径,直接写xxx就行了。(如果有重名文件可能有问题)
+  - alias #允许给.md添加别名(用于引用)eg. ```alias: \r\n  name:a\r\ntext: this is a```
+  # 其它md中[[别名]]指向该.md
+  - blogging: #生成博客页
+      dirs: # The directories to be included
+        - help
+        - basic-info
+        - techniques
+        - community
+      features: 
+        tags: {} # 包含页面标签,标签需要手动加到md文档顶部元数据
+      theme:
+        name: card
+      meta_time_format: '%Y-%m-%d %H:%M:%S' #解析格式, 会自动找到元数据time或date上的字符串
+      time_format: '%Y年%m月%d日 %H时%M分' #输出格式
+  - tooltips #增加提示信息，参考文档 https://roipoussiere.frama.io/mkdocs-tooltips/installation/
+  - glightbox # 图片对齐
+markdown_extensions:
+  - toc:
+      toc_depth: 4 #目录仅收录前四级标题
+  #对markdown的数学公式的解析
+  - pymdownx.arithmatex:
+      generic: true
+  - md_in_html #在html块中用md语法 markdown="1" "block" "span",从低到高三个强制等级
+  - attr_list #允许将html属性加到md内联
+  - pymdownx.snippets #替换片段
+  - abbr
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - meta
+  #代码块高亮
+  - pymdownx.highlight:
+      use_pygments: true
+      auto_title: true #显示一个title, 不显示则设title=""
+      linenums: true #显示行号
+      linenums_style: pymdownx-inline #三种styple: pymdownx-inline/inline/table
+      anchor_linenums: true
+  #支持分组视图。代码块：=== "C++" === "C" 其他内容 === "A" ==="B"
+  - pymdownx.tabbed:
+      alternate_style: true
+  #支持表情 :happy:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  #支持脚注 [^1]:blablabla
+  - footnotes
+  #参考https://squidfunk.github.io/mkdocs-material/reference/formatting/
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.keys  #键盘组合图标生成 eg.++alt+f4+1++
+
+extra_css:
+  #自定义页面样式
+  - assets/css/extra.css
+  - assets/css/footer.css
+  #tooltips插件需要的css文件
+  - assets/css/hint.min.css
+extra_javascript:
+  #这个js可以自定义一些快捷键
+  - assets/javascripts/shortcuts.js
+  #Mathjax依赖js
+  - assets/javascripts/mathjax.js
+  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+theme:
+  name: "material"
+  custom_dir: overrides
+  icon:
+    logo: material/jellyfish
+  favicon: images/favicon.jpg
+  font:
+    text: Noto Serif Simplified Chinese
+  language: zh
+  features:
+    - navigation.tracking #锚点跟踪
+    - navigation.expand #侧栏自动展开
+    - navigation.top #返回顶部按钮
+    - navigation.tabs #顶部导航
+    - search.highlight #进入搜索的文章后使搜索文本高亮
+    - header.autohide #滑下后自动隐藏标题
+    # - navigation.instant #即时加载，点击内部链接后只加载改变的部分，与blog插件冲突
+    # - navigation.indexes #章节名处现在也可以加上md文档了(与awesome-pages插件冲突,用section-index插件替换)
+extra:
+  generator: true
+
+
+site_name: Kotonofans
+site_url: "https://saisui.github.io/kotonofans/"
+
+repo_url: https://github.com/saisui/kotonofans/
+repo_name: saisui/kotonofans
+edit_uri: https://github.com/saisui/kotonofans/

@@ -1,0 +1,5 @@
+title: 素材工具
+collapse_single_pages: true
+nav:
+  - 视频素材: material.md
+  - 在线工具: online-widgets.md
