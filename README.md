@@ -1,4 +1,4 @@
-# Kotonofans ::琴葉ノファンス
+# Kotonofans :: 琴葉ノファンス
 
 These pages are made for Doujin Community Creative Activity.
 
