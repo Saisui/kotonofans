@@ -1,0 +1,635 @@
+<!-- 这里用于覆盖MKdocs Material的各种块 -->
+<!DOCTYPE html>
+
+<html class="no-js" lang="zh">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="修复古早PSD文件图层名乱码问题的方法" name="description"/>
+<link href="https://saisui.github.io/kotonofans/techniques/ps-encoding/" rel="canonical"/>
+<link href="../../images/favicon.jpg" rel="icon"/>
+<meta content="mkdocs-1.3.0, mkdocs-material-8.2.16" name="generator"/>
+<title>Photoshop图层名乱码修复 - Kotonofans</title>
+<link href="../../assets/stylesheets/main.1c3799f8.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.cc9b2e1e.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Noto+Serif+Simplified+Chinese:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Noto Serif Simplified Chinese";--md-code-font:"Roboto Mono"}</style>
+<link href="../../assets/css/extra.css" rel="stylesheet"/>
+<link href="../../assets/css/footer.css" rel="stylesheet"/>
+<link href="../../assets/css/hint.min.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<!-- 不缓存 -->
+<!-- http 1.0 -->
+<meta content="no-cache" http-equiv="pragma">
+<!-- http 1.1 -->
+<meta content="no-cache, must-revalidate" http-equiv="content-type">
+<!-- http 1.0 -->
+<meta content="Wed, 26 Feb 1997 08:21:57 GMT" http-equiv="expires">
+</meta></meta></meta><link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>html.glightbox-open { overflow: initial; height: 100%; }</style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body data-md-color-accent="none" data-md-color-primary="none" data-md-color-scheme="" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#photoshop">
+          跳转至
+        </a>
+</div>
+<div data-md-component="announce">
+<aside class="md-banner">
+<div class="md-banner__inner md-grid md-typeset">
+            
+最新更新 2022-6-17 20:01
+
+          </div>
+</aside>
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="页眉" class="md-header__inner md-grid">
+<a aria-label="Kotonofans" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Kotonofans">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.5 14.5a.898.898 0 0 0-1 1c0 .67-1 .67-1 0v-2.3l1.7-.5c.72-.34 1.21-1.02 1.3-1.8C20.5 5.5 16.7 2 12 2s-8.5 3.5-8.5 8.9c.06.8.56 1.5 1.3 1.8l1.7.5v2.3a.5.5 0 0 1-.5.5.5.5 0 0 1-.5-.5.898.898 0 0 0-1-1 .898.898 0 0 0-1 1A2.394 2.394 0 0 0 6 18c1.41.06 2.56-1.09 2.5-2.5v-1.8h1v5.7c0 .67-1 .67-1 0a.898.898 0 0 0-1-1 .898.898 0 0 0-1 1A2.4 2.4 0 0 0 9 22c1.41.06 2.56-1.09 2.5-2.5V14h1v5.5A2.394 2.394 0 0 0 15 22c1.41.06 2.56-1.09 2.5-2.5 0-1.33-2-1.33-2 0 0 .67-1 .67-1 0v-5.7h1v1.8c0 1.36 1.13 2.46 2.5 2.4 1.41.06 2.56-1.09 2.5-2.5a.898.898 0 0 0-1-1m-8.9-9.8A5.566 5.566 0 0 0 7 7.3c-.17.2-.5.27-.7.1a.507.507 0 0 1-.1-.7 6.904 6.904 0 0 1 4.2-3c.27-.02.51.15.6.4.06.27-.12.55-.4.6Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Kotonofans
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Photoshop图层名乱码修复
+            
+          </span>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="搜索" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="搜索" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="查找" class="md-search__options">
+<button aria-label="清空当前内容" class="md-search__icon md-icon" tabindex="-1" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/saisui/kotonofans/" title="前往仓库">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    saisui/kotonofans
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="标签" class="md-tabs" data-md-component="tabs">
+<div class="md-tabs__inner md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../..">
+      主页
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../blogs/">
+      最近发布
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../tags/">
+      标签页
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../basic-info/basic-info/">
+        VOICEROID是...？
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../community/directors/">
+        创作者❀们
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link md-tabs__link--active" href="./">
+        小☆技☆巧
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../video-materials/material/">
+        素材工具
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../help/1-%E6%96%87%E6%A1%A3%E7%BB%93%E6%9E%84%E8%AF%B4%E6%98%8E/">
+        文档编辑帮助
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="导航栏" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Kotonofans" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Kotonofans">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.5 14.5a.898.898 0 0 0-1 1c0 .67-1 .67-1 0v-2.3l1.7-.5c.72-.34 1.21-1.02 1.3-1.8C20.5 5.5 16.7 2 12 2s-8.5 3.5-8.5 8.9c.06.8.56 1.5 1.3 1.8l1.7.5v2.3a.5.5 0 0 1-.5.5.5.5 0 0 1-.5-.5.898.898 0 0 0-1-1 .898.898 0 0 0-1 1A2.394 2.394 0 0 0 6 18c1.41.06 2.56-1.09 2.5-2.5v-1.8h1v5.7c0 .67-1 .67-1 0a.898.898 0 0 0-1-1 .898.898 0 0 0-1 1A2.4 2.4 0 0 0 9 22c1.41.06 2.56-1.09 2.5-2.5V14h1v5.5A2.394 2.394 0 0 0 15 22c1.41.06 2.56-1.09 2.5-2.5 0-1.33-2-1.33-2 0 0 .67-1 .67-1 0v-5.7h1v1.8c0 1.36 1.13 2.46 2.5 2.4 1.41.06 2.56-1.09 2.5-2.5a.898.898 0 0 0-1-1m-8.9-9.8A5.566 5.566 0 0 0 7 7.3c-.17.2-.5.27-.7.1a.507.507 0 0 1-.1-.7 6.904 6.904 0 0 1 4.2-3c.27-.02.51.15.6.4.06.27-.12.55-.4.6Z"></path></svg>
+</a>
+    Kotonofans
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/saisui/kotonofans/" title="前往仓库">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    saisui/kotonofans
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+        主页
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../blogs/">
+        最近发布
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../tags/">
+        标签页
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-state="indeterminate" data-md-toggle="__nav_4" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4">
+          VOICEROID是...？
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="VOICEROID是...？" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+          VOICEROID是...？
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../basic-info/basic-info/">
+        基本信息
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../basic-info/softwares/">
+        各类语音合成软件
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../basic-info/characters/">
+        相关角色
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-state="indeterminate" data-md-toggle="__nav_5" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5">
+          创作者❀们
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="创作者❀们" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+          创作者❀们
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../community/directors/">
+        同人动画
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6">
+          小☆技☆巧
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="小☆技☆巧" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+          小☆技☆巧
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Photoshop图层名乱码修复
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Photoshop图层名乱码修复
+      </a>
+<nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1">
+    1. “为什么！？”
+  </a>
+<nav aria-label="1. “为什么！？”" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_1">
+    根本原因
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+    “但不是所有立绘都会乱码......”
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#2">
+    2. “怎么办？”
+  </a>
+<nav aria-label="2. “怎么办？”" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#photoshopjsx">
+    在Photoshop中使用Jsx脚本
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#python">
+    使用Python
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../change-vro-illu/">
+        替换VOICEROID软件立绘
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-state="indeterminate" data-md-toggle="__nav_7" id="__nav_7" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7">
+          素材工具
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="素材工具" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_7">
+<span class="md-nav__icon md-icon"></span>
+          素材工具
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../video-materials/material/">
+        视频素材
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../video-materials/online-widgets/">
+        在线工具
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-state="indeterminate" data-md-toggle="__nav_8" id="__nav_8" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8">
+          文档编辑帮助
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="文档编辑帮助" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_8">
+<span class="md-nav__icon md-icon"></span>
+          文档编辑帮助
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../help/1-%E6%96%87%E6%A1%A3%E7%BB%93%E6%9E%84%E8%AF%B4%E6%98%8E/">
+        文档结构说明
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../help/2-%E6%8F%92%E4%BB%B6%E8%AF%B4%E6%98%8E/">
+        插件说明
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1">
+    1. “为什么！？”
+  </a>
+<nav aria-label="1. “为什么！？”" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_1">
+    根本原因
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+    “但不是所有立绘都会乱码......”
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#2">
+    2. “怎么办？”
+  </a>
+<nav aria-label="2. “怎么办？”" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#photoshopjsx">
+    在Photoshop中使用Jsx脚本
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#python">
+    使用Python
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<a class="md-content__button md-icon" href="https://github.com/saisui/kotonofans/techniques/ps-encoding.md" title="编辑此页">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
+</a>
+<nav class="md-tags">
+<a class="md-tag" href="../../tags/#photoshop">
+          Photoshop
+        </a>
+<a class="md-tag" href="../../tags/#psd">
+          psd
+        </a>
+<a class="md-tag" href="../../tags/#">
+          乱码
+        </a>
+<a class="md-tag" href="../../tags/#">
+          立绘
+        </a>
+</nav>
+<h1 id="photoshop">Photoshop图层乱码问题</h1>
+<div class="admonition note">
+<p class="admonition-title">一般快速解决</p>
+<p>在<span aria-label="859299200" class="tooltip hint--top"><ins>本站的QQ群</ins></span>里有相关软件的下载，启动该<code>exe</code>程序，会将当前目录中所有<code>psd</code>文件的图层乱码问题解决。</p>
+</div>
+<h2 id="1"><strong><em>1. “为什么！？”</em></strong></h2>
+<h4 id="_1">根本原因</h4>
+<p>在使用 <em>日语环境的软件</em> 时，经常会遇到 <strong>乱码</strong> 问题，有时候甚至需要转区。其原因就在于，日语环境的Windows采用<a href="https://en.wikipedia.org/wiki/Shift_JIS" target="_blank">Shift-JIS</a>编码，而我们平时用的中文版Windows是<a href="https://en.wikipedia.org/wiki/GBK_(character_encoding)" target="_blank">GBK</a>编码，俩者 <strong>编码不统一</strong> 导致解码出错。</p>
+<!--一个简单的解决方案是更改Windows系统 **“非Unicode程序的语言中所使用的当前语言”** 选项，但这样会导致一部分中文程序无法运行，所以并不推荐。-->
+<details class="question">
+<summary>为什么解压文件时选了日语编码，结果还是乱码了？</summary>
+<p>解压时选择日语编码是非常明智的。只不过这个方法一般只能解决解压出来的 <strong><em>文件名乱码</em></strong> 问题，并不能解决程序内部字符乱码问题。</p>
+</details>
+<h4 id="_2"><em>“但不是所有立绘都会乱码......”</em></h4>
+<p>是的，有的PSD立绘，即使是日本画师的作品、即使图层名是日语，但也没有乱码。这是因为较新的PSD文件（Photoshop 5.0）增加了Unicode图层名的功能（<a href="https://www.adobe.com/devnet-apps/photoshop/fileformatashtml/" target="_blank">Unicode layer name</a>），而Unicode在所有电脑上都通用。</p>
+<h2 id="2"><strong><em>2. “怎么办？”</em></strong></h2>
+<h4 id="photoshopjsx">在Photoshop中使用Jsx脚本</h4>
+<p><a href="https://share.weiyun.com/eGHLj6uj" target="_blank">下载链接</a></p>
+<div class="admonition note">
+<p class="admonition-title">原理</p>
+<p>该方法的原理就是单纯地更改图层名。源代码都在脚本中，没有加密。</p>
+</div>
+<details class="example">
+<summary>如何使用</summary>
+<ul>
+<li>保证PS_ShiftjisToUtf8.jsx 和 PS_ShiftjisToUtf8 文件夹在同一目录。</li>
+<li>在Ps将要改名字的图层编为一个组，选中这个组。</li>
+<li>然后使用jsx脚本（将jsx脚本直接拖进ps或者在Ps的<code>文件-脚本</code>中使用）</li>
+<li>等待一段时间，即可看到图层重命名了。之后把组给去除就行了。</li>
+</ul>
+</details>
+<h4 id="python">使用Python</h4>
+<p>也可以使用Python的<a href="https://psd-tools.readthedocs.io/en/latest/" target="_blank">psd-tools</a>来更改PSD图层名。使用<code>pip install psd-tools</code>安装<a href="https://psd-tools.readthedocs.io/en/latest/" target="_blank">psd-tools</a>。</p>
+<details class="question">
+<summary>想想看：这两个示例会有什么不同？</summary>
+<p>示例一中直接将Shift-JIS转换为GBK，乍一看似乎没有问题，而且代码很简洁。但是，<strong><em>Shift-JIS中存在GBK中没有的字符</em></strong>，比如ｴﾋﾞﾌﾗｲ这样半宽的假名。在转换这些字符时，示例一会 <strong>报错</strong>。而示例二直接使用Unicode，避免了这个问题。</p>
+</details>
+<p>示例一：
+<div class="highlight"><span class="filename">Python</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><a href="#__codelineno-0-1"><span class="linenos" data-linenos="1 "></span></a><span class="kn">from</span> <span class="nn">psd_tools</span> <span class="kn">import</span> <span class="n">PSDImage</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a><a href="#__codelineno-0-2"><span class="linenos" data-linenos="2 "></span></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a><a href="#__codelineno-0-3"><span class="linenos" data-linenos="3 "></span></a><span class="n">filename</span> <span class="o">=</span> <span class="s2">"example.psd"</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a><a href="#__codelineno-0-4"><span class="linenos" data-linenos="4 "></span></a><span class="n">psd</span> <span class="o">=</span> <span class="n">PSDImage</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"Shift-JIS"</span><span class="p">)</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5"></a><a href="#__codelineno-0-5"><span class="linenos" data-linenos="5 "></span></a><span class="n">psd</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="sa">f</span><span class="s1">'GBK_</span><span class="si">{</span><span class="n">filename</span><span class="si">}</span><span class="s1">'</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"GBK"</span><span class="p">)</span>
+</code></pre></div></p>
+<p>示例二：
+<div class="highlight"><span class="filename">Python</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><a href="#__codelineno-1-1"><span class="linenos" data-linenos=" 1 "></span></a><span class="kn">from</span> <span class="nn">psd_tools</span> <span class="kn">import</span> <span class="n">PSDImage</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2"></a><a href="#__codelineno-1-2"><span class="linenos" data-linenos=" 2 "></span></a><span class="kn">from</span> <span class="nn">psd_tools.constants</span> <span class="kn">import</span> <span class="n">Tag</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3"></a><a href="#__codelineno-1-3"><span class="linenos" data-linenos=" 3 "></span></a>
+<a id="__codelineno-1-4" name="__codelineno-1-4"></a><a href="#__codelineno-1-4"><span class="linenos" data-linenos=" 4 "></span></a><span class="k">def</span> <span class="nf">writeBlock</span><span class="p">(</span><span class="n">group</span><span class="p">):</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5"></a><a href="#__codelineno-1-5"><span class="linenos" data-linenos=" 5 "></span></a>    <span class="k">for</span> <span class="n">layer</span> <span class="ow">in</span> <span class="n">group</span><span class="p">:</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6"></a><a href="#__codelineno-1-6"><span class="linenos" data-linenos=" 6 "></span></a>        <span class="c1"># 直接更改Unicode图层名</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7"></a><a href="#__codelineno-1-7"><span class="linenos" data-linenos=" 7 "></span></a>        <span class="c1"># Directly set Unicode layer name</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8"></a><a href="#__codelineno-1-8"><span class="linenos" data-linenos=" 8 "></span></a>        <span class="n">layer</span><span class="o">.</span><span class="n">_record</span><span class="o">.</span><span class="n">tagged_blocks</span><span class="o">.</span><span class="n">set_data</span><span class="p">(</span><span class="n">Tag</span><span class="o">.</span><span class="n">UNICODE_LAYER_NAME</span><span class="p">,</span> <span class="n">layer</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9"></a><a href="#__codelineno-1-9"><span class="linenos" data-linenos=" 9 "></span></a>        <span class="k">if</span> <span class="n">layer</span><span class="o">.</span><span class="n">is_group</span><span class="p">():</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10"></a><a href="#__codelineno-1-10"><span class="linenos" data-linenos="10 "></span></a>            <span class="n">writeBlock</span><span class="p">(</span><span class="n">layer</span><span class="p">)</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11"></a><a href="#__codelineno-1-11"><span class="linenos" data-linenos="11 "></span></a>
+<a id="__codelineno-1-12" name="__codelineno-1-12"></a><a href="#__codelineno-1-12"><span class="linenos" data-linenos="12 "></span></a><span class="n">filename</span> <span class="o">=</span> <span class="s2">"example.psd"</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13"></a><a href="#__codelineno-1-13"><span class="linenos" data-linenos="13 "></span></a><span class="n">psd</span> <span class="o">=</span> <span class="n">PSDImage</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"Shift-JIS"</span><span class="p">)</span>
+<a id="__codelineno-1-14" name="__codelineno-1-14"></a><a href="#__codelineno-1-14"><span class="linenos" data-linenos="14 "></span></a><span class="n">writeBlock</span><span class="p">(</span><span class="n">psd</span><span class="p">)</span>
+<a id="__codelineno-1-15" name="__codelineno-1-15"></a><a href="#__codelineno-1-15"><span class="linenos" data-linenos="15 "></span></a><span class="n">psd</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Unicode_</span><span class="si">{</span><span class="n">filename</span><span class="si">}</span><span class="s1">'</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"Shift-JIS"</span><span class="p">)</span>
+</code></pre></div></p>
+<!-- 评论区模块(使用来必力支持), 默认开启, 在元数据中加上 comment:false 或者 comment: off 来去除。-->
+<!-- 来必力City版安装代码 -->
+<div data-id="city" data-uid="MTAyMC81NjYwNC8zMzA2Nw==" id="lv-container">
+<script type="text/javascript">
+    (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+
+        if (typeof LivereTower === 'function') { return; }
+
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+
+        e.parentNode.insertBefore(j, e);
+    })(document, 'script');
+    </script>
+<noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+</div>
+<!-- City版安装代码已完成 -->
+</article>
+</div>
+</div>
+<a class="md-top md-icon" data-md-component="top" data-md-state="hidden" href="#">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            回到页面顶部
+          </a>
+</main>
+<footer class="md-footer">
+<nav aria-label="页脚" class="md-footer__inner md-grid">
+<a aria-label="上一页: 同人动画" class="md-footer__link md-footer__link--prev" href="../../community/directors/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                上一页
+            </span>
+            同人动画
+            </div>
+</div>
+</a>
+<a aria-label="下一页: 替换VOICEROID软件立绘" class="md-footer__link md-footer__link--next" href="../change-vro-illu/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                下一页
+            </span>
+            替换VOICEROID软件立绘
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid" style="display: block;margin: 0 auto">
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>底部链接</title>
+<style>
+		.alt {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			align-content: center;
+			justify-content: flex-start;
+			align-items: flex-start;
+		}
+		</style>
+</head>
+<body>
+<div class="footer">
+<div class="alt">
+<div class="foot">
+<p>官方网站</p>
+<a href="https://www.ah-soft.com/voiceroid/">Voiceroid</a>
+<a href="https://aivoice.jp/">A.I.Voice</a>
+<a href="https://voicevox.hiroshiba.jp/">Voicevox</a>
+<a href="https://lmroidsoftware.wixsite.com/">Lmroids</a>
+<a href="https://cevio.jp/">CevioAI</a>
+<a href="https://haruqa.booth.pm/items/2755336">TalQu</a>
+<a href="https://coefont.cloud/">Ceofont</a>
+<a href="https://coeiroink.com/">COEIROINK</a>
+</div>
+<div class="foot">
+<p>友情链接</p>
+<a href="https://guanyujie.gitee.io/yukarifans/">Yukarifans</a>
+<a href="https://space.bilibili.com/152434014">DE老师-B站</a>
+<a href="https://cevio-user-guide-unofficial.github.io/CeVIO-AI/">Cevio非官方中文文档</a>
+<a href="https://space.bilibili.com/280282">花角-B站</a>
+</div>
+<div class="foot">
+<p>欢迎加群来玩</p>
+<img src="https://s2.loli.net/2022/06/14/jE3yRw5oPu9JQsY.jpg"/>
+</div>
+</div>
+</div>
+</body>
+</html>
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking", "navigation.expand", "navigation.top", "navigation.tabs", "search.highlight", "header.autohide"], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\uff0c\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+<script src="../../assets/javascripts/bundle.3a4b43e5.min.js"></script>
+<script src="../../assets/javascripts/shortcuts.js"></script>
+<script src="../../assets/javascripts/mathjax.js"></script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "width": "100%", "height": "auto", "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom"});})</script></body>
+</html>
