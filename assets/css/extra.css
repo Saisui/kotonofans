@@ -8,11 +8,18 @@
     display: none;
 }
 
+body > div.md-container > footer > div > div > div.footer > div > div:nth-child(2) > a{
+	color:rgb(255, 255, 255);
+}
+body > div.md-container > footer > div > div > div.footer > div > div:nth-child(1) > a{
+	color:rgb(255, 255, 255);
+}
 
-.md-header,.md-banner,.md-tabs{
+.md-header,.md-banner,.md-tabs,.md-footer-meta{
 	background: rgb(238,174,202);
 	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
+
 
 /**设置网页的颜色配置，（可以通过F12开发者工具看具体哪个地方用的是哪个配色属性）*/
 :root > *{
