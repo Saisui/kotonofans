@@ -7,6 +7,8 @@ tags:
   - psd
   - 乱码
   - 立绘
+
+comment: false
 ---
 
 # Photoshop图层乱码问题

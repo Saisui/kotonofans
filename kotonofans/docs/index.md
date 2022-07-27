@@ -13,6 +13,8 @@ hide:
 tags:
   - 主页
 comment: false
+
+comment: false
 ---
 
 # Welcome to <span style="background: rgb(255,51,120);background: linear-gradient(90deg, rgba(255,51,120,1) 0%, rgba(221,131,158,1) 28%, rgba(202,145,255,1) 58%, rgba(100,212,255,1) 100%);;-webkit-background-clip: text;-webkit-text-fill-color: transparent;">KotonoFans</span>
