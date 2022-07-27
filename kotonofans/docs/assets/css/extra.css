@@ -1,0 +1,42 @@
+
+/**设置内容的宽度*/
+.md-grid {
+    max-width: 1280px; 
+}
+/**隐藏页脚的《上一个》和《下一个》*/
+.md-footer__inner {
+    display: none;
+}
+
+
+.md-header,.md-banner,.md-tabs{
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+/**设置网页的颜色配置，（可以通过F12开发者工具看具体哪个地方用的是哪个配色属性）*/
+:root > *{
+    --md-default-fg-color :                rgb(0, 0, 0);
+    --md-default-bg-color :                rgb(255, 255, 255);
+    --md-primary-fg-color:             #428eff;
+    --md-primary-bg-color:             hsla(0, 0%, 100%, 1);
+    --md-accent-fg-color:              #eb89eb;
+    --md-footer-fg-color:              hsla(0, 0%, 100%, 1);
+    --md-footer-fg-color--light:       hsla(0, 0%, 100%, 0.7);
+    --md-footer-fg-color--lighter:     hsla(0, 0%, 100%, 0.3);
+    --md-footer-bg-color:              #806080;
+    --md-footer-bg-color--dark:        hsla(0, 0%, 0%, 0.32);
+}
+
+/**鼠标移上去才会出现的黑幕样式，使用例<span class="heimu">看得见这行字吗</span>*/
+.heimu, .heimu rt {
+    background-color: #252525;
+}
+body:not(.heimu_toggle_on) .heimu:hover, body:not(.heimu_toggle_on) .heimu:active, body:not(.heimu_toggle_on) .heimu.off{
+    transition: color .12s linear;
+    color: white;
+}
+.heimu, .heimu a, a .heimu, .heimu a.new {
+    color: #252525;
+    text-shadow: none;
+}

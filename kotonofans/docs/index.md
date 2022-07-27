@@ -1,17 +1,23 @@
-# Welcome to MkDocs
+---
+title: 主页
+description: 这是主页
+time: "2022-7-27 15:05:00"
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+alias: 
+  name: 主页
+  text: 主页
+hide:
+  - tags
+  - navigation
+  - toc
+tags:
+  - 主页
+comment: false
+---
 
-## Commands
+# Welcome to <span style="background: rgb(255,51,120);background: linear-gradient(90deg, rgba(255,51,120,1) 0%, rgba(221,131,158,1) 28%, rgba(202,145,255,1) 58%, rgba(100,212,255,1) 100%);;-webkit-background-clip: text;-webkit-text-fill-color: transparent;">KotonoFans</span>
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+<center>
+![Image title](assets/medias/99398325_p0.png){loading=lazy}</center>
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+{{ pico-8: 85303 }}
