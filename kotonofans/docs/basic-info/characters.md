@@ -14,7 +14,7 @@ tags:
 comment: false
 ---
 
-# VRO的角色们
+# VOICEROID 角色
 
 ## **<span style="background: rgb(255,51,120);background: linear-gradient(90deg, rgba(255,51,120,1) 0%, rgba(221,131,158,1) 28%, rgba(202,145,255,1) 58%, rgba(100,212,255,1) 100%);;-webkit-background-clip: text;-webkit-text-fill-color: transparent;">琴叶姐妹（茜・葵）</span>**
 <!-- 渐变使用 https://cssgradient.io/ -->
@@ -72,6 +72,9 @@ comment: false
 | 声优 | 木户衣吹 | 画师 | 江户村ににこ |
 | 所属 | SSS、AH-Software | 声库 | VOICEROID |
 
+
+# VOICEVOX 角色
+
 ## <span style="background: rgb(150,255,167);background: linear-gradient(0deg, rgba(150,255,167,1) 0%, rgba(77,124,37,1) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">**俊达萌**</span>
 ![touhoku_zunko](../assets/medias/Chara_zunmon.png){ align=right }
 
@@ -99,6 +102,8 @@ comment: false
 | 声库 | [VOICEVOX](https://voicevox.hiroshiba.jp/) |
 | 基本许可 | 免费、[可商用](https://voicevox.hiroshiba.jp/term/) |
 
+
+
 ## <span style="background: rgb(77,0,32);background: radial-gradient(circle, rgba(77,0,32,1) 0%, rgba(174,27,134,1) 21%, rgba(255,49,219,1) 52%, rgba(126,63,185,1) 87%, rgba(77,0,32,1) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">**冥鳴ひまり**</span>
 
 ![touhoku_zunko](../assets/medias/meimei_himari_97264697_p0.png){ align=right }
@@ -124,6 +129,8 @@ comment: false
 | 声库 | [VOICEROID](https://www.ah-soft.com/voiceroid/ai/) |
 
 2007年10月，由 株式会社エーアイ 贩售，作为商用语音合成引擎 AI Talk (ATM 机、票券机等) 的内置女声，只是一般向的女性合成音商品。2009年12月4日，由株式会社 AHS 开始发售 VOICEROID。
+
+# VOICEROID 角色
 
 ## <span style="background: rgb(102,0,179);background: linear-gradient(90deg, rgba(102,0,179,1) 0%, rgba(223,88,225,1) 61%, rgba(243,144,255,1) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">**结月缘**</span>
 ![yuzuki_yukari](../assets/medias/yukari_set.png){ align=right }
