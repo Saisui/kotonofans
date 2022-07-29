@@ -14,9 +14,9 @@ tags:
 comment: false
 ---
 
-# VOICEROID 角色
+## VOICEROID 角色
 
-## **<span style="background: rgb(255,51,120);background: linear-gradient(90deg, rgba(255,51,120,1) 0%, rgba(221,131,158,1) 28%, rgba(202,145,255,1) 58%, rgba(100,212,255,1) 100%);;-webkit-background-clip: text;-webkit-text-fill-color: transparent;">琴叶姐妹（茜・葵）</span>**
+### **<span style="background: rgb(255,51,120);background: linear-gradient(90deg, rgba(255,51,120,1) 0%, rgba(221,131,158,1) 28%, rgba(202,145,255,1) 58%, rgba(100,212,255,1) 100%);;-webkit-background-clip: text;-webkit-text-fill-color: transparent;">琴叶姐妹（茜・葵）</span>**
 <!-- 渐变使用 https://cssgradient.io/ -->
 
 ![kotonoha](../assets/medias/akane_aoi_tietie.jpg){ align=right }
@@ -31,7 +31,7 @@ comment: false
 
 更多信息→[萌娘百科](https://zh.moegirl.org.cn/%E7%90%B4%E5%8F%B6%E8%8C%9C%E3%80%81%E8%91%B5)
 
-## **<span style="background: rgb(199,131,221);background: linear-gradient(260deg, rgba(199,131,221,1) 0%, rgba(189,97,0,1) 50%, rgba(38,20,0,1) 100%);;-webkit-background-clip: text;-webkit-text-fill-color: transparent;">东北切蒲英</span>**
+### **<span style="background: rgb(199,131,221);background: linear-gradient(260deg, rgba(199,131,221,1) 0%, rgba(189,97,0,1) 50%, rgba(38,20,0,1) 100%);;-webkit-background-clip: text;-webkit-text-fill-color: transparent;">东北切蒲英</span>**
 <!-- 渐变使用 https://cssgradient.io/ -->
 
 ![touhoku_kiritan](../assets/medias/21141353_p0.jpg){ align=right }
@@ -51,7 +51,7 @@ comment: false
 
 
 
-## <span style="background: rgb(34,193,195);background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(150,255,167,1) 56%, rgba(46,124,37,1) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">**东北俊子**</span>
+### <span style="background: rgb(34,193,195);background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(150,255,167,1) 56%, rgba(46,124,37,1) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">**东北俊子**</span>
 ![touhoku_zunko](../assets/medias/966896_touhoku_zunko.jpg){ align=right }
 
 | 名字 | <ruby>東北<rt>とうほく</rt></ruby> ずん<ruby>子<rt>こ</rt></ruby> |
@@ -64,7 +64,7 @@ comment: false
 | 声库 | VOICEROID |
 | 乐库 | VOCALOID |
 
-## 东北伊达子
+### 东北伊达子
 
 | 名字 | <ruby>東北<rt>とうほく</rt></ruby> イタコ |||
 |-|-|-|-|
@@ -73,9 +73,9 @@ comment: false
 | 所属 | SSS、AH-Software | 声库 | VOICEROID |
 
 
-# VOICEVOX 角色
+## VOICEVOX 角色
 
-## <span style="background: rgb(150,255,167);background: linear-gradient(0deg, rgba(150,255,167,1) 0%, rgba(77,124,37,1) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">**俊达萌**</span>
+### <span style="background: rgb(150,255,167);background: linear-gradient(0deg, rgba(150,255,167,1) 0%, rgba(77,124,37,1) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">**俊达萌**</span>
 ![touhoku_zunko](../assets/medias/Chara_zunmon.png){ align=right }
 
 | 名字 | ずんだもん|
@@ -90,7 +90,7 @@ comment: false
 | 基本许可 | 免费、[可商用](https://voicevox.hiroshiba.jp/term/) |
 
 
-## <span style="background: rgb(126,63,185);background: radial-gradient(circle, rgba(126,63,185,1) 0%, rgba(252,70,153,1) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">**四国玫碳**</span>
+### <span style="background: rgb(126,63,185);background: radial-gradient(circle, rgba(126,63,185,1) 0%, rgba(252,70,153,1) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">**四国玫碳**</span>
 
 ![touhoku_zunko](../assets/medias/siguo_92645347_p0.png){ align=right }
 
@@ -104,7 +104,7 @@ comment: false
 
 
 
-## <span style="background: rgb(77,0,32);background: radial-gradient(circle, rgba(77,0,32,1) 0%, rgba(174,27,134,1) 21%, rgba(255,49,219,1) 52%, rgba(126,63,185,1) 87%, rgba(77,0,32,1) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">**冥鳴ひまり**</span>
+### <span style="background: rgb(77,0,32);background: radial-gradient(circle, rgba(77,0,32,1) 0%, rgba(174,27,134,1) 21%, rgba(255,49,219,1) 52%, rgba(126,63,185,1) 87%, rgba(77,0,32,1) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">**冥鳴ひまり**</span>
 
 ![touhoku_zunko](../assets/medias/meimei_himari_97264697_p0.png){ align=right }
 
@@ -118,7 +118,7 @@ comment: false
 
 冥鳴ひまり本人于2021年12月4日在 Youtube 投稿，作为 Vtuber 出道，2022年02月20日 达成收益化。
 
-## <span style="background: rgb(255,164,130);background: linear-gradient(90deg, rgba(255,164,130,1) 0%, rgba(225,203,88,1) 61%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">**月读爱**</span>
+### <span style="background: rgb(255,164,130);background: linear-gradient(90deg, rgba(255,164,130,1) 0%, rgba(225,203,88,1) 61%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">**月读爱**</span>
 
 ![tsukuyomi_ai](../assets/medias/tsukuyomi_ai_le.png){ align=right }
 
@@ -130,9 +130,9 @@ comment: false
 
 2007年10月，由 株式会社エーアイ 贩售，作为商用语音合成引擎 AI Talk (ATM 机、票券机等) 的内置女声，只是一般向的女性合成音商品。2009年12月4日，由株式会社 AHS 开始发售 VOICEROID。
 
-# VOICEROID 角色
+## VOICEROID 角色
 
-## <span style="background: rgb(102,0,179);background: linear-gradient(90deg, rgba(102,0,179,1) 0%, rgba(223,88,225,1) 61%, rgba(243,144,255,1) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">**结月缘**</span>
+### <span style="background: rgb(102,0,179);background: linear-gradient(90deg, rgba(102,0,179,1) 0%, rgba(223,88,225,1) 61%, rgba(243,144,255,1) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">**结月缘**</span>
 ![yuzuki_yukari](../assets/medias/yukari_set.png){ align=right }
 
 | 名字 | <ruby>結月<rt>ゆずき</rt></ruby> ゆかり |
@@ -146,7 +146,7 @@ comment: false
 
 更多信息→[萌娘百科](https://zh.moegirl.org.cn/%E7%BB%93%E6%9C%88%E7%BC%98)
 
-## **绁星灯**
+### **绁星灯**
 
 | 名字 | <ruby>紲星<rt>きずな</rt></ruby> あかり |
 |-|-|
