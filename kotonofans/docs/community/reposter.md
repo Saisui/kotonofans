@@ -1,14 +1,14 @@
 ---
-description: 转载与翻译之方法、注意
+description: 转载与翻译
 time: "2022-7-27 15:20:00"
 alias: 
-  name: 动画
-  text: 创作与欣赏
+  name: 转载翻译
+  text: 转载与翻译之方法、注意事项
 hide:
   - tags
 tags:
-  - 动画作者
-  - 同人社区
+  - 转载
+  - 翻译
 
 comment: false
 ---

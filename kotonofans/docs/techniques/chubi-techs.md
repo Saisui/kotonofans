@@ -1,7 +1,7 @@
 ---
 description: 小技巧
 time: "2022-6-12 09:16:00"
-alias: 替换立绘
+alias: 小技巧
 tags:
   - A.I.VOICE
   - VOICEROID
