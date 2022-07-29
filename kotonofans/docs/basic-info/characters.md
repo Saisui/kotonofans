@@ -130,7 +130,7 @@ comment: false
 
 2007年10月，由 株式会社エーアイ 贩售，作为商用语音合成引擎 AI Talk (ATM 机、票券机等) 的内置女声，只是一般向的女性合成音商品。2009年12月4日，由株式会社 AHS 开始发售 VOICEROID。
 
-## VOICEROID 角色
+## VOICEROID 另一些角色
 
 ### <span style="background: rgb(102,0,179);background: linear-gradient(90deg, rgba(102,0,179,1) 0%, rgba(223,88,225,1) 61%, rgba(243,144,255,1) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">**结月缘**</span>
 ![yuzuki_yukari](../assets/medias/yukari_set.png){ align=right }
