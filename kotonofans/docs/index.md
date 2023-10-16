@@ -1,7 +1,7 @@
 ---
 title: 主页
 description: 这是主页
-time: "2023-10-16 15:50:00"
+time: "2023-10-16 16:45:00"
 
 alias:
   name: 主页
@@ -27,7 +27,7 @@ comment: false
 
 ![Image title](assets/medias/qq_group_qrcode.png){loading=lazy style="max-width: 500px;"}
 
-<img src="https://count.getloli.com/get/@kotonofans?theme=rule34" alt="kotonofans" />
+
 </center>
 
 {{ pico-8: 85303 }}
