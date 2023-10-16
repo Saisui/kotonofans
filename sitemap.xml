@@ -2,87 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://saisui.github.io/kotonofans/</loc>
-         <lastmod>2022-07-30</lastmod>
+         <lastmod>2023-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://saisui.github.io/kotonofans/blogs/</loc>
-         <lastmod>2022-07-30</lastmod>
+         <lastmod>2023-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://saisui.github.io/kotonofans/tags/</loc>
-         <lastmod>2022-07-30</lastmod>
+         <lastmod>2023-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://saisui.github.io/kotonofans/todos/</loc>
-         <lastmod>2022-07-30</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://saisui.github.io/kotonofans/basic-info/basic-info/</loc>
-         <lastmod>2022-07-30</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://saisui.github.io/kotonofans/basic-info/characters/</loc>
-         <lastmod>2022-07-30</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://saisui.github.io/kotonofans/basic-info/softwares/</loc>
-         <lastmod>2022-07-30</lastmod>
+         <lastmod>2023-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://saisui.github.io/kotonofans/community/directors/</loc>
-         <lastmod>2022-07-30</lastmod>
+         <lastmod>2023-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://saisui.github.io/kotonofans/community/reposter/</loc>
-         <lastmod>2022-07-30</lastmod>
+         <lastmod>2023-10-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://saisui.github.io/kotonofans/faq/change-vro-illu/</loc>
+         <lastmod>2023-10-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://saisui.github.io/kotonofans/faq/chubi-techs/</loc>
+         <lastmod>2023-10-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://saisui.github.io/kotonofans/faq/ps-encoding/</loc>
+         <lastmod>2023-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://saisui.github.io/kotonofans/help/1-%E6%96%87%E6%A1%A3%E7%BB%93%E6%9E%84%E8%AF%B4%E6%98%8E/</loc>
-         <lastmod>2022-07-30</lastmod>
+         <lastmod>2023-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://saisui.github.io/kotonofans/help/2-%E6%8F%92%E4%BB%B6%E8%AF%B4%E6%98%8E/</loc>
-         <lastmod>2022-07-30</lastmod>
+         <lastmod>2023-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://saisui.github.io/kotonofans/techniques/change-vro-illu/</loc>
-         <lastmod>2022-07-30</lastmod>
+         <loc>https://saisui.github.io/kotonofans/tools/material/</loc>
+         <lastmod>2023-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://saisui.github.io/kotonofans/techniques/chubi-techs/</loc>
-         <lastmod>2022-07-30</lastmod>
+         <loc>https://saisui.github.io/kotonofans/tools/sozais/</loc>
+         <lastmod>2023-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://saisui.github.io/kotonofans/techniques/ps-encoding/</loc>
-         <lastmod>2022-07-30</lastmod>
+         <loc>https://saisui.github.io/kotonofans/tools/tools/</loc>
+         <lastmod>2023-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://saisui.github.io/kotonofans/video-materials/material/</loc>
-         <lastmod>2022-07-30</lastmod>
+         <loc>https://saisui.github.io/kotonofans/what/basic-info/</loc>
+         <lastmod>2023-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://saisui.github.io/kotonofans/video-materials/online-widgets/</loc>
-         <lastmod>2022-07-30</lastmod>
+         <loc>https://saisui.github.io/kotonofans/what/characters/</loc>
+         <lastmod>2023-10-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://saisui.github.io/kotonofans/what/softwares/</loc>
+         <lastmod>2023-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://saisui.github.io/kotonofans/tags/</loc>
-         <lastmod>2022-07-30</lastmod>
+         <lastmod>2023-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
