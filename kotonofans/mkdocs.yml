@@ -18,7 +18,7 @@ plugins:
         - basic-info
         - techniques
         - community
-      features: 
+      features:
         tags: {} # 包含页面标签,标签需要手动加到md文档顶部元数据
       theme:
         name: card
@@ -79,8 +79,8 @@ theme:
   name: "material"
   custom_dir: overrides
   icon:
-    logo: material/jellyfish
-  favicon: images/favicon.jpg
+    logo: material/snowflake
+  favicon: assets/medias/favicon_kotonoha_neon.svg
   font:
     text: Noto Serif Simplified Chinese
   language: zh
@@ -102,4 +102,4 @@ site_url: "https://saisui.github.io/kotonofans/"
 
 repo_url: https://github.com/saisui/kotonofans/
 repo_name: saisui/kotonofans
-edit_uri: https://github.com/saisui/kotonofans/
+edit_uri: https://github.com/Saisui/kotonofans/tree/main/kotonofans/docs/

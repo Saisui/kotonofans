@@ -1,7 +1,7 @@
 ---
 description: 一些免费的背景、音效、图片素材网站
 time: "2022-6-12 04:11:00"
-alias: 
+alias:
   name: 素材
   text: 免费素材网站
 hide:
@@ -60,7 +60,8 @@ comment: false
 
     [blueberry](https://seiga.nicovideo.jp/user/illust/1584023)さん：不仅画了立绘，还有背景图、道具图等。
 	> ☆ 插图可以转载或用于视频，公司制作的除外。但请注意，商业用途、商业用途、自说自话、侮辱他人以及与政治宗教有关的使用都是NG。另外，请理解并非所有上传者都可以转载。未经许可，请勿转载视频。
-
+- **ICON-SVG**
+  - [本站的琴叶姐妹矢量图](https://www.echikara.net/voiceroid/2021-04-25/1497/)
 !!! todo "施工中..."
 
 ## **声音素材**
@@ -88,5 +89,7 @@ comment: false
 - [きまぐれアフター背景素材置き場](https://k-after.at.webry.info/){target=_blank}: 一组学校内的背景素材，含校舍，泳池等（部分素材不免费）。
 
 - [みんちりえ](https://min-chi.material.jp/){target=_blank}: 免费的背景素材站，大多是日常的背景，含车站，学校，办公楼等。
+
+
 
 !!! todo "施工中..."

@@ -1,6 +1,9 @@
 nav:
   - index.md
   - blogs.md
-  - ...
+  - what
+  - tools
+  - faq
+  - community
   - todos.md
   - help
