@@ -27,7 +27,6 @@ comment: false
     !!! warning ":anger: 网站链接可能失效！请点击链接打开"
     - **AI 生成内容**
         - **civitai | AI 绘画模型**： <https://civitai.com/>{target=_blank}
-        - **原神在线TTS | 语音生成**： <https://genshinvoice.top/>{target=_blank}
     - **海盗图库**
         - **SafeBooru | 海盗图库**：<https://safebooru.donmai.us/>{target=_blank}
 
